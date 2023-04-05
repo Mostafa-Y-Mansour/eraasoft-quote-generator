@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+## How to start working on this task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. fork this repository from my account to yours
 
-## Available Scripts
+2. clone the forked repository from your account to your device
 
-In the project directory, you can run:
+3. run `npm install`
 
-### `npm start`
+4. run `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. work on each task and push them in different commits
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. submit the repository
 
-### `npm test`
+### Task 1
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+modify the style of this quote generator by adding some css in the App.css file
 
-### `npm run build`
+https://coolors.co/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Task 2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+replace "loading.." with an animated loading spinner
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://www.google.com/search?q=css+loading+spinner&rlz=1C1GCEB_enEG1012EG1012&sxsrf=APwXEdfHIsnQSlLrXlhcQo8BIHEEQ_KMZw%3A1680659111886&ei=p9IsZO3fM_LJlAaO9aeQDw&oq=css+loading+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADOgQIIxAnOggIABCKBRCRAjoLCAAQigUQsQMQgwE6EQguEIoFELEDEIMBEMcBENEDOg0IABCKBRCxAxCDARBDOgoIABCKBRCxAxBDOg4IABCKBRCxAxCDARCRAkoECEEYAFCgB1iyIGCzKWgDcAF4AIABrgGIAdIOkgEEMC4xMpgBAKABAcgBCMABAQ&sclient=gws-wiz-serp
 
-### `npm run eject`
+### Task 3
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+create a button named "share to WhatsApp", that allows user to share any quote with anyone in whatsapp
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://www.google.com/search?q=whatsapp+share+api+js&rlz=1C1GCEB_enEG1012EG1012&sxsrf=APwXEdea3rUcZevsVTLyzJxdk3ZqOChuvQ%3A1680659014764&ei=RtIsZLuiLtaAi-gPkKewyAc&oq=whatsapp+share+api&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgcIABANEIAEMgcIABANEIAEMgQIABAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMggIABCKBRCGAzIICAAQigUQhgMyCAgAEIoFEIYDMggIABCKBRCGAzoKCAAQRxDWBBCwAzoGCAAQBxAeOggIABAIEAcQHkoECEEYAFDnKljrN2CmSmgGcAF4AYABnwOIAe0NkgEJMC43LjEuMC4xmAEAoAEByAEIwAEB&sclient=gws-wiz-serp
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Task 4
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+deploy your repository on render, then share the project link here in the repository
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://render.com/
