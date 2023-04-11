@@ -1,6 +1,7 @@
 import './App.css';
 import { useState, useEffect } from "react"
 import Loading from './components/Loading';
+import Animations from './components/Animations';
 
 function App() {
   const apiUrl = "https://api.quotable.io/random"
@@ -17,7 +18,7 @@ function App() {
         setQuote(data)
         setIsLoading(false)
       })
-    } , 2000)
+    } , 1000)
   }
 
   useEffect(() => {
@@ -29,8 +30,10 @@ function App() {
   }
 
   return (
+    <>
+    <Animations />
     <div className="app-container">
-      <h1 className="app-title">Best Quote Generator</h1>
+      <h1 className="app-title">Quote Generator</h1>
       <div className="quote-wrapper">
         <p className='quote-content'>{quote.content}</p>
         <span className='quote-author'>{quote.author}</span>
@@ -50,6 +53,7 @@ function App() {
         </button>
       </div>
     </div>
+    </>
   );
 }
 

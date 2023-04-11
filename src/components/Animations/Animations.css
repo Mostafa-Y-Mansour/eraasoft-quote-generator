@@ -1,0 +1,75 @@
+/* animation box start */
+
+.animation-box {
+  /* background-color: aliceblue; */
+  width: 2600px;
+  height: 2400px;
+  position: fixed;
+  bottom: -1500px;
+  left: -1100px;
+  z-index: 0;
+}
+
+.animation-box > .box-1 {
+  width: 1500px;
+  height: 1300px;
+  background-color: #000000;
+  opacity: 0.1;
+  border-top-left-radius: 631px 1165px;
+  border-top-right-radius: 818px 1138px;
+  border-bottom-left-radius: 833px 1247px;
+  border-bottom-right-radius: 1574px 1261px;
+  position: absolute;
+  animation: rotate-box 20s infinite linear;
+  -webkit-animation: rotate-box 20s infinite linear;
+}
+.animation-box > .box-2 {
+  width: 1400px;
+  height: 1300px;
+  background-color: #40ff00;
+  opacity: 0.3;
+  border-top-left-radius: 920px 1138px;
+  border-top-right-radius: 1131px 1409px;
+  border-bottom-left-radius: 893px 1415px;
+  border-bottom-right-radius: 500px 1208px;
+  transform: rotateZ(100deg);
+  -webkit-transform: rotateZ(100deg);
+  -moz-transform: rotateZ(100deg);
+  -ms-transform: rotateZ(100deg);
+  -o-transform: rotateZ(100deg);
+  position: absolute;
+  animation: rotate-box 18s infinite linear;
+  -webkit-animation: rotate-box 18s infinite linear;
+}
+.animation-box > .box-3 {
+  width: 1400px;
+  height: 1300px;
+  background-color: hsl(150, 100%, 66%);
+  opacity: 0.5;
+  border-bottom-left-radius: 721px 564px;
+  border-bottom-right-radius: 988px 987px;
+  border-top-left-radius: 520px 1349px;
+  border-top-right-radius: 462px 625px;
+  position: absolute;
+  animation: rotate-box 16s infinite linear;
+  -webkit-animation: rotate-box 16s infinite linear;
+}
+
+@keyframes rotate-box {
+  0% {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(365deg);
+    -webkit-transform: rotateZ(365deg);
+    -moz-transform: rotateZ(365deg);
+    -ms-transform: rotateZ(365deg);
+    -o-transform: rotateZ(365deg);
+  }
+}
+
+/* animation box end */
