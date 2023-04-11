@@ -14,14 +14,102 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(218, 23%, 16%);
 }
 
 .app-container {
-  box-shadow: 0px 0px 2px 2px #32323232;
+  background-color: hsl(217, 19%, 24%);
+  box-shadow: 0px 0px 2px 2px hsl(150, 100%, 66%);
+  padding: 20px 15px;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  padding: 12px;
+  text-align: center;
+}
+
+
+.quote-wrapper {
+  margin: 20px 5px 10px;
+  max-width: 400px;
+}
+
+.app-container > h1 {
+  color: hsl(150, 100%, 66%);
+}
+.app-container  p{
+  font-weight: bold;
+  color:hsl(193, 38%, 86%)
+}
+.app-container  p{
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.app-container span{
+  color:hsla(149, 66%, 90%, 0.8);
+  font-size: .7rem;
+}
+
+.app-container .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+.app-container button {
+  background-color: hsl(150, 100%, 66%);
+  color: #000;
+  font-weight: 700;
+  padding: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+  cursor: pointer;
+  height: 30px;
+}
+.app-container button  img { 
+  height: 100%
+}
+
+
+.line {
+  width: 100%;
+  padding: 0.25px;
+  background-color: hsl(217, 19%, 38%);
+  position: relative;
+  /* margin: auto; */
+  margin: 20px auto;
+  max-width: 350px;
+}
+
+.line .quote {
+  background-color: hsl(217, 19%, 24%);
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  -webkit-transform: translate(-50%, -35%);
+  -moz-transform: translate(-50%, -35%);
+  -ms-transform: translate(-50%, -35%);
+  -o-transform: translate(-50%, -35%);
+}
+
+.line .quote:before,
+.line .quote:after {
+  content: "";
+  display: inline-block;
+  background-color: hsl(193, 38%, 86%);
+  height: 15px;
+  margin: 2.5px;
+  padding-left: 5px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }

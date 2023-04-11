@@ -12,26 +12,28 @@
 
 6. submit the repository
 
-### Task 1
+### Task 1 (done)
 
 modify the style of this quote generator by adding some css in the App.css file
 
 https://coolors.co/
 
-### Task 2
+### Task 2 (done)
 
 replace "loading.." with an animated loading spinner
 
 https://www.google.com/search?q=css+loading+spinner&rlz=1C1GCEB_enEG1012EG1012&sxsrf=APwXEdfHIsnQSlLrXlhcQo8BIHEEQ_KMZw%3A1680659111886&ei=p9IsZO3fM_LJlAaO9aeQDw&oq=css+loading+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADOgQIIxAnOggIABCKBRCRAjoLCAAQigUQsQMQgwE6EQguEIoFELEDEIMBEMcBENEDOg0IABCKBRCxAxCDARBDOgoIABCKBRCxAxBDOg4IABCKBRCxAxCDARCRAkoECEEYAFCgB1iyIGCzKWgDcAF4AIABrgGIAdIOkgEEMC4xMpgBAKABAcgBCMABAQ&sclient=gws-wiz-serp
 
-### Task 3
+### Task 3 (done)
 
 create a button named "share to WhatsApp", that allows user to share any quote with anyone in whatsapp
 
 https://www.google.com/search?q=whatsapp+share+api+js&rlz=1C1GCEB_enEG1012EG1012&sxsrf=APwXEdea3rUcZevsVTLyzJxdk3ZqOChuvQ%3A1680659014764&ei=RtIsZLuiLtaAi-gPkKewyAc&oq=whatsapp+share+api&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgcIABANEIAEMgcIABANEIAEMgQIABAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMggIABCKBRCGAzIICAAQigUQhgMyCAgAEIoFEIYDMggIABCKBRCGAzoKCAAQRxDWBBCwAzoGCAAQBxAeOggIABAIEAcQHkoECEEYAFDnKljrN2CmSmgGcAF4AYABnwOIAe0NkgEJMC43LjEuMC4xmAEAoAEByAEIwAEB&sclient=gws-wiz-serp
 
-### Task 4
+### Task 4 (done)
 
 deploy your repository on render, then share the project link here in the repository
 
 https://render.com/
+
+preview: "https://eraasoft-quote-generator-murm.onrender.com/"

@@ -1,5 +1,6 @@
 import './App.css';
-import { useState, useEffect } from "react"
+import { Link, useState, useEffect } from "react"
+import Loading from './components/Loading';
 
 function App() {
   const apiUrl = "https://api.quotable.io/random"
@@ -7,13 +8,16 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
 
   const generateQuote = () => {
+
     setIsLoading(true)
-    fetch(apiUrl)
+    setTimeout(() => {
+      fetch(apiUrl)
       .then(res => res.json())
       .then(data => {
         setQuote(data)
         setIsLoading(false)
       })
+    } , 2000)
   }
 
   useEffect(() => {
@@ -21,7 +25,7 @@ function App() {
   }, [])
 
   if (isLoading) {
-    return <p>Loading..</p>
+    return <Loading />
   }
 
   return (
@@ -31,7 +35,21 @@ function App() {
         <p className='quote-content'>{quote.content}</p>
         <span className='quote-author'>{quote.author}</span>
       </div>
+      <div class="line">
+        <div class="quote"></div>
+      </div>
+      <div className="btns">
+
       <button onClick={generateQuote}>generate</button>
+
+      <button>
+      <Link to={`whatsapp://send?text=${quote.content}`} 	
+      	data-action="share/whatsapp/share">
+        <img src={require("./images/whatsapp-logo.png")} alt="WhatsApp" />
+       </Link> 
+        
+        </button>
+      </div>
     </div>
   );
 }
