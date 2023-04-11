@@ -80,7 +80,6 @@ body {
   padding: 0.25px;
   background-color: hsl(217, 19%, 38%);
   position: relative;
-  /* margin: auto; */
   margin: 20px auto;
   max-width: 350px;
 }

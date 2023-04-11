@@ -1,5 +1,5 @@
 import './App.css';
-import { Link, useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import Loading from './components/Loading';
 
 function App() {
@@ -43,10 +43,9 @@ function App() {
       <button onClick={generateQuote}>generate</button>
 
       <button>
-      <Link to={`whatsapp://send?text=${quote.content}`} 	
-      	data-action="share/whatsapp/share">
+      <a href={`whatsapp://send?text=${quote.content}`}>
         <img src={require("./images/whatsapp-logo.png")} alt="WhatsApp" />
-       </Link> 
+       </a> 
         
         </button>
       </div>
